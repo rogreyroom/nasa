@@ -127,8 +127,9 @@ const AutocompleteInput = () => {
     }
   };
 
-  useEffect(() => {
-    const searchResult = getLocation(watchInput);
+  // eslint-disable-next-line
+  useEffect(async () => {
+    const searchResult = await getLocation(watchInput);
     const citesData = searchResult.reduce((acc, curr) => {
       const cityNameArray = curr.display_name.split(',');
       const cityName = `${cityNameArray[0]} / ${cityNameArray[1]} / ${
@@ -137,7 +138,6 @@ const AutocompleteInput = () => {
       acc.push({ name: cityName, lat: curr.lat, lon: curr.lon });
       return acc;
     }, []);
-
     setSuggestedLocations((suggestedLocations) => citesData);
   }, [watchInput]);
 
