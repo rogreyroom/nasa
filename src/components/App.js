@@ -1,5 +1,6 @@
 import 'normalize.css';
 import { createGlobalStyle } from 'styled-components';
+import {LocationProvider} from "../context/LocationContext"
 
 const GlobalStyle = createGlobalStyle`
 html {
@@ -23,12 +24,12 @@ body {
 
 function App() {
   return (
-    <>
+    <LocationProvider>
       <GlobalStyle />
       <header>
         <h1>NASA</h1>
       </header>
-    </>
+    <LocationProvider/>
   );
 }
 
