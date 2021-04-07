@@ -2,6 +2,7 @@ import 'normalize.css';
 import { createGlobalStyle } from 'styled-components';
 import {LocationProvider} from "../context/LocationContext"
 import Header from './Header'
+import AutocompleteInput from "./AutocompleteInput";
 
 const GlobalStyle = createGlobalStyle`
 html {
@@ -28,6 +29,7 @@ function App() {
     <LocationProvider>
       <GlobalStyle />
       <Header title={ 'Cities by NASA' }/>
+      <AutocompleteInput/>
     </LocationProvider>
   );
 }
