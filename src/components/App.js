@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 import {LocationProvider} from "../context/LocationContext"
 import Header from './Header'
 import AutocompleteInput from "./AutocompleteInput";
+import Map from "./Map";
 
 const GlobalStyle = createGlobalStyle`
 html {
@@ -30,6 +31,7 @@ function App() {
       <GlobalStyle />
       <Header title={ 'Cities by NASA' }/>
       <AutocompleteInput/>
+      <Map />
     </LocationProvider>
   );
 }
