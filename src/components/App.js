@@ -4,6 +4,7 @@ import {LocationProvider} from "../context/LocationContext"
 import Header from './Header'
 import AutocompleteInput from "./AutocompleteInput";
 import Map from "./Map";
+import Layout from "./Layout";
 
 const GlobalStyle = createGlobalStyle`
 html {
@@ -29,9 +30,11 @@ function App() {
   return (
     <LocationProvider>
       <GlobalStyle />
-      <Header title={ 'Cities by NASA' }/>
-      <AutocompleteInput/>
-      <Map />
+      <Layout>
+        <Header title={ 'Cities by NASA' }/>
+        <AutocompleteInput/>
+        <Map />
+      </Layout>
     </LocationProvider>
   );
 }
