@@ -28,7 +28,7 @@ function App() {
     <LocationProvider>
       <GlobalStyle />
       <Header title={ 'Cities by NASA' }/>
-    <LocationProvider/>
+    </LocationProvider>
   );
 }
 
