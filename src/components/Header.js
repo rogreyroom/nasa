@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 
 const StyledHeader = styled.header`
@@ -12,8 +13,7 @@ const StyledHeader = styled.header`
     line-height: 1.4rem;
     margin: 0;
   }
-`
-
+`;
 
 const Header = ({ title }) => {
   return (
@@ -21,6 +21,6 @@ const Header = ({ title }) => {
       <h1>{title}</h1>
     </StyledHeader>
   );
-}
+};
 
 export default Header;

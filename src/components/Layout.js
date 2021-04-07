@@ -1,4 +1,4 @@
-import {useEffect} from "react";
+import React from 'react';
 import styled from 'styled-components';
 
 const StyledLayout = styled.main`
@@ -9,15 +9,10 @@ const StyledLayout = styled.main`
   padding: 1rem;
   max-width: 900px;
   margin: 0 auto;
-`
-
+`;
 
 function Layout({ children }) {
-  return (
-    <StyledLayout>
-      { children }
-    </StyledLayout>
-  );
+  return <StyledLayout>{children}</StyledLayout>;
 }
 
 export default Layout;
