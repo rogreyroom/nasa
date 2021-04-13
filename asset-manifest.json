@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/rogreyroom/nasa/static/js/main.9d90967d.chunk.js",
+    "main.js.map": "/rogreyroom/nasa/static/js/main.9d90967d.chunk.js.map",
+    "runtime-main.js": "/rogreyroom/nasa/static/js/runtime-main.96a6f8e6.js",
+    "runtime-main.js.map": "/rogreyroom/nasa/static/js/runtime-main.96a6f8e6.js.map",
+    "static/css/2.679831fc.chunk.css": "/rogreyroom/nasa/static/css/2.679831fc.chunk.css",
+    "static/js/2.b3eaea29.chunk.js": "/rogreyroom/nasa/static/js/2.b3eaea29.chunk.js",
+    "static/js/2.b3eaea29.chunk.js.map": "/rogreyroom/nasa/static/js/2.b3eaea29.chunk.js.map",
+    "index.html": "/rogreyroom/nasa/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/rogreyroom/nasa/static/css/2.679831fc.chunk.css.map",
+    "static/js/2.b3eaea29.chunk.js.LICENSE.txt": "/rogreyroom/nasa/static/js/2.b3eaea29.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96a6f8e6.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.b3eaea29.chunk.js",
+    "static/js/main.9d90967d.chunk.js"
+  ]
+}
